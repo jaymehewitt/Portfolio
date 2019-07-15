@@ -2594,7 +2594,7 @@ input, select, textarea {
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/trees.jpg");
-		background-position: top left,							top left;
+		background-position: top left,							top right;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
 		color: rgba(255, 255, 255, 0.5);
@@ -3085,7 +3085,7 @@ input, select, textarea {
 				bottom: auto;
 				left: auto;
 				padding: 4em 4em 6em 4em;
-				position: relative;
+				position: left;
 				text-align: center;
 				width: 100%;
 			}
