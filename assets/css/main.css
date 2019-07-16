@@ -2252,11 +2252,6 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
-		ul.actions li {
-			padding: 0 0 0 1em;
-			vertical-align: middle;
-		}
-
 		ul.actions.special {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
