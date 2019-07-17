@@ -120,6 +120,12 @@ input, select, textarea {
 			color: #49bf9d !important;
 			text-decoration: none;
 		}
+	ul.navigation {
+		list-style-type: none;
+ 		margin: 0;
+		padding: 8px;
+		float: left;
+		}		
 
 	strong, b {
 		color: #787878;
