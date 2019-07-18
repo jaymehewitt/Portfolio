@@ -178,11 +178,13 @@ input, select, textarea {
 		line-height: .85em;
 		font-family: 'novitonova-regular';
 		font-size: 3.5em;
+		padding: 1em;
 	}
 
 	h2.major {
 		line-height: 1em;
 		font-family: 'hickory jack';
+		padding: 1em;
 	}
 
 	h3 {
