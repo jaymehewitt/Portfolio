@@ -10,11 +10,11 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<ul class="navigation">
-			<li><a href="aboutme.asp">About Me</a></li>
-			<li><a href="productwork.asp">Product Work</a></li>
-			<li><a href="developmentwork.asp">Development Work</a></li>
-			<li><a href="contact.asp">Contact</a></li>
+			<ul class="navigation">
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#development">Development Work</a></li>
+				<li><a href="#product">Product Work</a></li>
+				<li><a href="#main">About Me</a></li>
 		  </ul>
 	</head>
 	<body class="is-preload">
@@ -33,7 +33,7 @@
 				<!-- About Me -->
 					<section id="about me">
 						<header class="major">
-							<h2>Product manager, mama of two adventurous kids, and current student at MomsCan:Code School.</h2>
+							<h2>Product manager, mama of two adventurous kids, and newfound web developer honing my skills at MomsCan:Code School.</h2>
 						</header>
 						<p>Curiosity, drive, and a strong passion for bringing the voice of the customer into the product development process led Jayme to cultivate a career in product management. Many years in various customer service/community manager roles fed the desire to be a larger part of delighting customers through thoughtful, user-centered product development. As an enrolled student at MomsCan:Code School, Jayme is excited about learning another facet of product creation, this time on the engineering side of things. She is learning how to think about problems in a new way and enjoys applying what she has learned to other areas of her life. When not learning to code you can find her traveling the world with her family, geocaching, or hiking in the mountains of the Pacific Northwest. She would love to connect with you on <a href="https://www.linkedin.com/in/jaymehewitt/">LinkedIn</a>!</p>
 					</section>
@@ -103,7 +103,7 @@
 					</section>
 
 				<!-- Three -->
-					<section id="three">
+					<section id="contact">
 						<h2>GET IN TOUCH</h2>
 						<p>I'm always happy to chat about product, code, being a mom in tech, or all three!</p>
 						<div class="row">
@@ -463,6 +463,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="js/jquery.combinedScroll.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+				
+				  // Hook up the current state to the nav bar
+				  $('.page-navigation').onePageNav();
+				  
+				});
+				</script>
 
 	</body>
 </html>
