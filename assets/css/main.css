@@ -132,6 +132,7 @@ input, select, textarea {
 		width: 100%;
 		background-color: white;
 		z-index: 9;
+		float: right;
 		}	
 		
 		ul.navigation li {
