@@ -12,6 +12,8 @@ I would love to have two separate areas of my portfolio: one for product managem
 for website development work. I will start by adding separate pages for each of my product management
 projects to help explain the process and outcome of each of my projects.
 
+It will also be a priority to start getting the individual pieces linked up: blog post, HTML email, etc.
+
 
 Credits:
 	AJ at HTML5UP.net for an awesome template to start from (originally Strata)
