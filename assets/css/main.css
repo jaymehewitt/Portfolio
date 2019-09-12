@@ -5,7 +5,7 @@
 	src: url("webfonts/Hickory Jack.woff") format('woff');
 }
 @font-face {
-	font-family: "NovitoNova-Regular.woff";
+	font-family: "NovitoNova-Regular";
 	src: url("webfonts/NovitoNova-Regular.woff") format('woff');	
 }
 
@@ -185,14 +185,14 @@ input, select, textarea {
 
 	h2 {
 		line-height: .95em;
-		font-family: 'novitonova-regular';
+		font-family: 'NovitoNova-Regular';
 		font-size: 2.5em;
 		padding: 45px 5px 35px;
 	}
 
 	h2.major {
 		line-height: 1em;
-		font-family: 'hickory jack';
+		font-family: 'Hickory Jack';
 		padding: 1em;
 	}
 
